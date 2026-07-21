@@ -32,8 +32,11 @@ public class Alerts {
 		 
 		 //accept alert 
 		  driver.switchTo().alert().accept();//to ok alert
+		  
+		  
 		 
-		
+			// find alert button and perform click action
+
 
 	}
 
