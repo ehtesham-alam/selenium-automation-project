@@ -37,6 +37,8 @@ public class Alerts {
 		 
 			// find alert button and perform click action
 			// find alert button and perform click action
+			// find alert button and perform click action
+
 
 
 
