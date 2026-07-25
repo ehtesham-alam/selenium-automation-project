@@ -7,9 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class VerifyURL {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\durga\\Downloads\\Driver\\chromedriver.exe");
-		WebDriver driver  = new ChromeDriver();
+
+		WebDriver driver = new ChromeDriver();
 		/*
 		 * driver.get("https://demo.automationtesting.in/Alerts.html");
 		 * //https://demoqa.com/alerts driver.manage().window().maximize();

@@ -30,7 +30,7 @@ public class MobileAutomation {
 		AndroidDriver a = new AndroidDriver(u,c);
 		TouchActions t  = new TouchActions(driver);
 		
-		
+		 	
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@content-desc = '8']")).click();
 		Thread.sleep(3000);
