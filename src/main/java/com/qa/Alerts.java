@@ -27,20 +27,11 @@ public class Alerts {
 		// find alert button and perform click action
 		driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
 
-		 //switch to alert window, enter name
-		  driver.switchTo().alert().sendKeys("Sudha");
-		 
-		 //accept alert 
-		  driver.switchTo().alert().accept();//to ok alert
-		  
-		  
-		 
-			// find alert button and perform click action
-			// find alert button and perform click action
-			// find alert button and perform click action
+		// switch to alert window, enter name
+		driver.switchTo().alert().sendKeys("Sudha");
 
-
-
+		// accept alert
+		driver.switchTo().alert().accept();// to ok alert
 
 	}
 
